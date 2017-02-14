@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="PointsPink" sid="920812690341641" static="0" type="number">0</variable>
+        <variable constant="0" name="PointsBlue" sid="500093084971720" static="0" type="number">0</variable>
+        <variable constant="0" name="chooseCube" sid="429007937400422" static="0" type="number">0</variable>
+        <variable constant="0" name="move1" sid="443460427246807" static="0" type="number">3</variable>
+        <event-group description="" sid="256768338660736" title="Move Objects">
+            <sub-events>
+                <event-block sid="154074400364353">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="511500426266847" type="cube">
+                            <param id="0" name="Object">conver</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="301593065035098" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="601230537692199" type="cube">
+                            <param id="0" name="Angle">180</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="146563786430753">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="239069343353067" type="cube">
+                            <param id="0" name="Object">conver3</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="254534372586893" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="129694246199490" type="cube">
+                            <param id="0" name="Angle">180</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="389775787676031">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="105688328588235" type="cube">
+                            <param id="0" name="Object">conver4</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="650571597392210" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="751605515289239" type="cube">
+                            <param id="0" name="Angle">180</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="898522097027080">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="514751159775280" type="cube">
+                            <param id="0" name="Object">conver2</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="267960751445449" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="126717753355787" type="cube">
+                            <param id="0" name="Angle">180</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="523537255218357">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="555617580261781" type="cube">
+                            <param id="0" name="Object">conver</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="489699535125150" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="468908792164861" type="cube">
+                            <param id="0" name="Angle">0</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="857531487167888">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="219968566694825" type="cube">
+                            <param id="0" name="Object">conver3</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="911731928445321" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="118968048286284" type="cube">
+                            <param id="0" name="Angle">0</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="432980431516583">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="644002590959151" type="cube">
+                            <param id="0" name="Object">conver4</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="792152577703770" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="846698426986472" type="cube">
+                            <param id="0" name="Angle">0</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="855926709589921">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="121301727805539" type="cube">
+                            <param id="0" name="Object">conver2</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="519176393004858" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="452974744159672" type="cube">
+                            <param id="0" name="Angle">0</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="291690451722598">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="592133191196614" type="cube2">
+                            <param id="0" name="Object">conver</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="186994535509338" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="305794348581276" type="cube2">
+                            <param id="0" name="Angle">180</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="405883930547058">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="919713776742283" type="cube2">
+                            <param id="0" name="Object">conver3</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="216745622808885" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="334607145890320" type="cube2">
+                            <param id="0" name="Angle">180</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="591193922663355">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="561159527092396" type="cube2">
+                            <param id="0" name="Object">conver4</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="183128233738837" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="490698261894933" type="cube2">
+                            <param id="0" name="Angle">180</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="698587931115701">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="476771920875603" type="cube2">
+                            <param id="0" name="Object">conver</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="461745571790105" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="130369615011838" type="cube2">
+                            <param id="0" name="Angle">0</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="576795661693592">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="182502605412408" type="cube2">
+                            <param id="0" name="Object">conver3</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="989479106497349" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="126208146995549" type="cube2">
+                            <param id="0" name="Angle">0</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="111250515432570">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="950209320203379" type="cube2">
+                            <param id="0" name="Object">conver4</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="118069089750316" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="657229919006724" type="cube2">
+                            <param id="0" name="Angle">0</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="662195636257185">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="316611218460107" type="cube2">
+                            <param id="0" name="Object">conver2</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="135340995304899" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="887520912067175" type="cube2">
+                            <param id="0" name="Angle">180</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="959635504963066">
+                    <conditions>
+                        <condition id="9" name="Is overlapping at offset" sid="615839727937888" type="cube2">
+                            <param id="0" name="Object">conver2</param>
+                            <param id="1" name="Offset X">0</param>
+                            <param id="2" name="Offset Y">1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="186155984090912" type="System">
+                            <param id="0" name="Variable">move1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-23" name="Move at angle" sid="738082197051604" type="cube2">
+                            <param id="0" name="Angle">0</param>
+                            <param id="1" name="Distance">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="325164624923562">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="918615911087685" type="Touch">
+                    <param id="0" name="Object">leftM</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="115478159235040" type="System">
+                    <param id="0" name="Variable">move1</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="262448756630248">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="542786293671267" type="Touch">
+                    <param id="0" name="Object">leftM2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="487009087648389" type="System">
+                    <param id="0" name="Variable">move1</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="281335488329671">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="407328685281247" type="System">
+                    <param id="0" name="Variable">move1</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="470344095062133" type="weel">
+                    <param id="0" name="Animation">&quot;left&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="634526898268100">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="697117739905793" type="System">
+                    <param id="0" name="Variable">move1</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="677226676524456" type="weel2">
+                    <param id="0" name="Animation">&quot;right&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="689924489182321">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="432407068094974" type="System">
+                    <param id="0" name="Variable">move1</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="919899939416421" type="weel">
+                    <param id="0" name="Animation">&quot;right&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="109730058645832">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="485623973496225" type="System">
+                    <param id="0" name="Variable">move1</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="143929626575731" type="weel2">
+                    <param id="0" name="Animation">&quot;left&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="713220685243403">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="362703014783477" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="458577763130683" type="System">
+                    <param id="0" name="Variable">chooseCube</param>
+                    <param id="1" name="Value">choose(1,2)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="321704769891398">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="686873484485046" type="System">
+                    <param id="0" name="Variable">chooseCube</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="710069167007850" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="142469528879098" type="sponer">
+                    <param id="0" name="Object">cube</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="334438331643786">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="243107776593864" type="System">
+                    <param id="0" name="Variable">chooseCube</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="949600606340450" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="424215839469800" type="sponer">
+                    <param id="0" name="Object">cube2</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="298373924253729">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="308135610991110" type="cube">
+                    <param id="0" name="Object">counterPink</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="494409199266135" type="System">
+                    <param id="0" name="Variable">PointsPink</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="319227384607503">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="596180546537329" type="cube2">
+                    <param id="0" name="Object">counterPink</param>
+                </condition>
+                <condition id="-15" name="Pick nearest/furthest" sid="586156893021283" type="cube">
+                    <param id="0" name="Which">0</param>
+                    <param id="1" name="X">cube2.X</param>
+                    <param id="2" name="Y">cube2.Y</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="480872261776828" type="counterPink">
+                    <param id="0" name="Object">cube</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="728966161292372" type="System">
+                    <param id="0" name="Seconds">0.35</param>
+                </action>
+                <action id="-11" name="Subtract from" sid="366822123543998" type="System">
+                    <param id="0" name="Variable">PointsPink</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="ScrollTo" id="0" name="Shake" sid="898933730531757" type="cameraObject">
+                    <param id="0" name="Magnitude">20</param>
+                    <param id="1" name="Duration">0.2</param>
+                    <param id="2" name="Mode">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="279597293174359" type="cube">
+                    <param id="0" name="Object">ParticlesPink</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="357271425441076" type="cube" />
+                <action id="0" name="Spawn another object" sid="704612181889407" type="cube2">
+                    <param id="0" name="Object">ParticlesBlue</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="863041280393360" type="cube2" />
+            </actions>
+        </event-block>
+        <event-block sid="965323334145117">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="739007269572796" type="cube2">
+                    <param id="0" name="Object">counterPink</param>
+                </condition>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="756919859069306" type="counterPink">
+                    <param id="0" name="Object">cube</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="509595845366184" type="System">
+                    <param id="0" name="Seconds">0.35</param>
+                </action>
+                <action behavior="ScrollTo" id="0" name="Shake" sid="929264874644392" type="cameraObject">
+                    <param id="0" name="Magnitude">20</param>
+                    <param id="1" name="Duration">0.2</param>
+                    <param id="2" name="Mode">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="646225941059016" type="cube2">
+                    <param id="0" name="Object">ParticlesBlue</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="664445387985580" type="cube2" />
+            </actions>
+        </event-block>
+        <event-block sid="428361438676192">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="914845351982703" type="cube2">
+                    <param id="0" name="Object">counterBlue</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="829658914921922" type="System">
+                    <param id="0" name="Variable">PointsBlue</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="557696638659670">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="183627152073495" type="cube">
+                    <param id="0" name="Object">counterBlue</param>
+                </condition>
+                <condition id="-15" name="Pick nearest/furthest" sid="568057489494625" type="cube2">
+                    <param id="0" name="Which">0</param>
+                    <param id="1" name="X">cube.X</param>
+                    <param id="2" name="Y">cube.Y</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="158256958755412" type="counterBlue">
+                    <param id="0" name="Object">cube2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="597432874907199" type="System">
+                    <param id="0" name="Seconds">0.35</param>
+                </action>
+                <action id="-11" name="Subtract from" sid="816840427510879" type="System">
+                    <param id="0" name="Variable">PointsBlue</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="ScrollTo" id="0" name="Shake" sid="221811810034028" type="cameraObject">
+                    <param id="0" name="Magnitude">20</param>
+                    <param id="1" name="Duration">0.2</param>
+                    <param id="2" name="Mode">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="435652402858934" type="cube2">
+                    <param id="0" name="Object">ParticlesBlue</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="653893096227165" type="cube2" />
+                <action id="0" name="Spawn another object" sid="537668749721836" type="cube">
+                    <param id="0" name="Object">ParticlesPink</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="430792331077000" type="cube" />
+            </actions>
+        </event-block>
+        <event-block sid="762909792293227">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="890720154055154" type="cube">
+                    <param id="0" name="Object">counterBlue</param>
+                </condition>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="924702746641697" type="counterBlue">
+                    <param id="0" name="Object">cube2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="938005227036826" type="System">
+                    <param id="0" name="Seconds">0.35</param>
+                </action>
+                <action behavior="ScrollTo" id="0" name="Shake" sid="174654422864765" type="cameraObject">
+                    <param id="0" name="Magnitude">20</param>
+                    <param id="1" name="Duration">0.2</param>
+                    <param id="2" name="Mode">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="384229957766871" type="cube">
+                    <param id="0" name="Object">ParticlesPink</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="577613859182260" type="cube" />
+            </actions>
+        </event-block>
+        <event-block sid="532858945707534">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="134994449756337" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="268826424279829" type="PointsBlue">
+                    <param id="0" name="Text">PointsBlue</param>
+                </action>
+                <action id="0" name="Set text" sid="124084332376950" type="PointsPink">
+                    <param id="0" name="Text">PointsPink</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
