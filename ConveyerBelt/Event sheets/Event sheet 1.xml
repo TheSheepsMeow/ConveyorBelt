@@ -370,6 +370,10 @@
                     <param id="0" name="Animation">&quot;left&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action id="4" name="Set animation" sid="453008416831077" type="ConveyorArrows">
+                    <param id="0" name="Animation">&quot;Left&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="634526898268100">
@@ -383,6 +387,10 @@
             <actions>
                 <action id="4" name="Set animation" sid="677226676524456" type="weel2">
                     <param id="0" name="Animation">&quot;right&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="246036715518363" type="ConveyorArrows2">
+                    <param id="0" name="Animation">&quot;Right&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
@@ -400,6 +408,10 @@
                     <param id="0" name="Animation">&quot;right&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action id="4" name="Set animation" sid="794554116391995" type="ConveyorArrows">
+                    <param id="0" name="Animation">&quot;Right&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="109730058645832">
@@ -413,6 +425,10 @@
             <actions>
                 <action id="4" name="Set animation" sid="143929626575731" type="weel2">
                     <param id="0" name="Animation">&quot;left&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="208866264468758" type="ConveyorArrows2">
+                    <param id="0" name="Animation">&quot;Left&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
@@ -482,41 +498,48 @@
                 <condition id="0" name="On collision with another object" sid="596180546537329" type="cube2">
                     <param id="0" name="Object">counterPink</param>
                 </condition>
-                <condition id="-15" name="Pick nearest/furthest" sid="586156893021283" type="cube">
-                    <param id="0" name="Which">0</param>
-                    <param id="1" name="X">cube2.X</param>
-                    <param id="2" name="Y">cube2.Y</param>
-                </condition>
                 <condition id="1" name="Is overlapping another object" sid="480872261776828" type="counterPink">
                     <param id="0" name="Object">cube</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="728966161292372" type="System">
-                    <param id="0" name="Seconds">0.35</param>
-                </action>
-                <action id="-11" name="Subtract from" sid="366822123543998" type="System">
-                    <param id="0" name="Variable">PointsPink</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action behavior="ScrollTo" id="0" name="Shake" sid="898933730531757" type="cameraObject">
-                    <param id="0" name="Magnitude">20</param>
-                    <param id="1" name="Duration">0.2</param>
-                    <param id="2" name="Mode">0</param>
-                </action>
-                <action id="0" name="Spawn another object" sid="279597293174359" type="cube">
-                    <param id="0" name="Object">ParticlesPink</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-                <action id="-9" name="Destroy" sid="357271425441076" type="cube" />
-                <action id="0" name="Spawn another object" sid="704612181889407" type="cube2">
-                    <param id="0" name="Object">ParticlesBlue</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-                <action id="-9" name="Destroy" sid="863041280393360" type="cube2" />
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="885846921447080">
+                    <conditions>
+                        <condition id="-15" name="Pick nearest/furthest" sid="586156893021283" type="cube">
+                            <param id="0" name="Which">0</param>
+                            <param id="1" name="X">cube2.X</param>
+                            <param id="2" name="Y">cube2.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="728966161292372" type="System">
+                            <param id="0" name="Seconds">0.35</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="366822123543998" type="System">
+                            <param id="0" name="Variable">PointsPink</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="ScrollTo" id="0" name="Shake" sid="898933730531757" type="cameraObject">
+                            <param id="0" name="Magnitude">20</param>
+                            <param id="1" name="Duration">0.2</param>
+                            <param id="2" name="Mode">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="279597293174359" type="cube">
+                            <param id="0" name="Object">ParticlesPink</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="357271425441076" type="cube" />
+                        <action id="0" name="Spawn another object" sid="704612181889407" type="cube2">
+                            <param id="0" name="Object">ParticlesBlue</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="863041280393360" type="cube2" />
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="965323334145117">
             <conditions>
@@ -562,41 +585,48 @@
                 <condition id="0" name="On collision with another object" sid="183627152073495" type="cube">
                     <param id="0" name="Object">counterBlue</param>
                 </condition>
-                <condition id="-15" name="Pick nearest/furthest" sid="568057489494625" type="cube2">
-                    <param id="0" name="Which">0</param>
-                    <param id="1" name="X">cube.X</param>
-                    <param id="2" name="Y">cube.Y</param>
-                </condition>
                 <condition id="1" name="Is overlapping another object" sid="158256958755412" type="counterBlue">
                     <param id="0" name="Object">cube2</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="597432874907199" type="System">
-                    <param id="0" name="Seconds">0.35</param>
-                </action>
-                <action id="-11" name="Subtract from" sid="816840427510879" type="System">
-                    <param id="0" name="Variable">PointsBlue</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action behavior="ScrollTo" id="0" name="Shake" sid="221811810034028" type="cameraObject">
-                    <param id="0" name="Magnitude">20</param>
-                    <param id="1" name="Duration">0.2</param>
-                    <param id="2" name="Mode">0</param>
-                </action>
-                <action id="0" name="Spawn another object" sid="435652402858934" type="cube2">
-                    <param id="0" name="Object">ParticlesBlue</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-                <action id="-9" name="Destroy" sid="653893096227165" type="cube2" />
-                <action id="0" name="Spawn another object" sid="537668749721836" type="cube">
-                    <param id="0" name="Object">ParticlesPink</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-                <action id="-9" name="Destroy" sid="430792331077000" type="cube" />
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="236149307528773">
+                    <conditions>
+                        <condition id="-15" name="Pick nearest/furthest" sid="568057489494625" type="cube2">
+                            <param id="0" name="Which">0</param>
+                            <param id="1" name="X">cube.X</param>
+                            <param id="2" name="Y">cube.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="597432874907199" type="System">
+                            <param id="0" name="Seconds">0.35</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="816840427510879" type="System">
+                            <param id="0" name="Variable">PointsBlue</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="ScrollTo" id="0" name="Shake" sid="221811810034028" type="cameraObject">
+                            <param id="0" name="Magnitude">20</param>
+                            <param id="1" name="Duration">0.2</param>
+                            <param id="2" name="Mode">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="435652402858934" type="cube2">
+                            <param id="0" name="Object">ParticlesBlue</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="653893096227165" type="cube2" />
+                        <action id="0" name="Spawn another object" sid="537668749721836" type="cube">
+                            <param id="0" name="Object">ParticlesPink</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="430792331077000" type="cube" />
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="762909792293227">
             <conditions>

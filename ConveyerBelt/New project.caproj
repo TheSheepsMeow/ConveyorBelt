@@ -464,6 +464,48 @@
             <plugin id="Particles" />
             <texture />
         </object-type>
+        <object-type name="ConveyorArrows" sid="994892589988625">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="990323816639013" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.52381" />
+                </animation>
+                <animation framecount="1" loop="0" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="181870894015722" speed="5">
+                    <frame duration="1" hotspotX="0.483871" hotspotY="0.52381">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="514406443908515" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.52381" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ConveyorArrows2" sid="667402583412440">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="182774491388267" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.52381" />
+                </animation>
+                <animation framecount="1" loop="0" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="346254993151639" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.52381" />
+                </animation>
+                <animation framecount="1" loop="0" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="321998329277809" speed="5">
+                    <frame duration="1" hotspotX="0.483871" hotspotY="0.52381">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
