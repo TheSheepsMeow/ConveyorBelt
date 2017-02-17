@@ -70,7 +70,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="jar" uid="5">
+                <instance type="jarPink" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -101,15 +101,58 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>78</x>
-                        <y>325</y>
+                        <x>84.021347046</x>
+                        <y>322.774108887</y>
                         <z>0</z>
-                        <width>144.062561035</width>
-                        <height>184.062561035</height>
+                        <width>125.419364929</width>
+                        <height>182.42817688</height>
                         <depth>0</depth>
-                        <hotspotX>0.504000008</hotspotX>
-                        <hotspotY>0.440366983</hotspotY>
-                        <angle>0.322185665</angle>
+                        <hotspotX>0.504132211</hotspotX>
+                        <hotspotY>0.440340906</hotspotY>
+                        <angle>0.314159274</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="jarBlue" uid="10">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>556.272583008</x>
+                        <y>325.72744751</y>
+                        <z>0</z>
+                        <width>125.418998718</width>
+                        <height>182.427993774</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504132211</hotspotX>
+                        <hotspotY>0.440340906</hotspotY>
+                        <angle>-0.349066257</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -464,7 +507,7 @@
                 </instance>
                 <instance type="counterPink" uid="13">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -481,12 +524,12 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0.343667567</angle>
-                        <opacity>1</opacity>
+                        <opacity>0.5</opacity>
                     </world>
                 </instance>
                 <instance type="counterBlue" uid="20">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -494,59 +537,16 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>579</x>
-                        <y>354</y>
+                        <x>560.113525391</x>
+                        <y>340.466003418</y>
                         <z>0</z>
-                        <width>114</width>
-                        <height>168</height>
+                        <width>99.904083252</width>
+                        <height>163.026428223</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-0.519089997</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="jar2" uid="10">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>Yes</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>564</x>
-                        <y>333</y>
-                        <z>0</z>
-                        <width>144</width>
-                        <height>184</height>
-                        <depth>0</depth>
-                        <hotspotX>0.504000008</hotspotX>
-                        <hotspotY>0.440366983</hotspotY>
-                        <angle>-0.519089997</angle>
-                        <opacity>1</opacity>
+                        <angle>-0.389474571</angle>
+                        <opacity>0.5</opacity>
                     </world>
                 </instance>
                 <instance type="cube" uid="0">

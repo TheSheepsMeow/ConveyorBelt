@@ -537,6 +537,21 @@
                             <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-9" name="Destroy" sid="863041280393360" type="cube2" />
+                        <action id="-8" name="Set angle" sid="556814135750798" type="jarPink">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="999692643357971" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="652529416821622" type="jarPink">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle -40, 0.1)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="675971173315569" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="456127674639960" type="jarPink">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -565,6 +580,21 @@
                     <param id="2" name="Image point">0</param>
                 </action>
                 <action id="-9" name="Destroy" sid="664445387985580" type="cube2" />
+                <action id="-8" name="Set angle" sid="306254967009711" type="jarPink">
+                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                </action>
+                <action id="-16" name="Wait" sid="709975253869943" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-8" name="Set angle" sid="793267895594311" type="jarPink">
+                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle -40, 0.1)</param>
+                </action>
+                <action id="-16" name="Wait" sid="253777179852254" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-8" name="Set angle" sid="184564082393065" type="jarPink">
+                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="428361438676192">
@@ -624,6 +654,21 @@
                             <param id="2" name="Image point">0</param>
                         </action>
                         <action id="-9" name="Destroy" sid="430792331077000" type="cube" />
+                        <action id="-8" name="Set angle" sid="646731992509338" type="jarBlue">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="759202720641095" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="621474091720126" type="jarBlue">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle -40, 0.1)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="101491566760543" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="271362968353966" type="jarBlue">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -652,6 +697,21 @@
                     <param id="2" name="Image point">0</param>
                 </action>
                 <action id="-9" name="Destroy" sid="577613859182260" type="cube" />
+                <action id="-8" name="Set angle" sid="426862903156135" type="jarBlue">
+                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                </action>
+                <action id="-16" name="Wait" sid="781509754260514" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-8" name="Set angle" sid="700104094146539" type="jarBlue">
+                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle -40, 0.1)</param>
+                </action>
+                <action id="-16" name="Wait" sid="561727343374900" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-8" name="Set angle" sid="358194292341403" type="jarBlue">
+                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="532858945707534">

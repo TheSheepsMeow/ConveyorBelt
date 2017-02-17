@@ -153,7 +153,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="jar" sid="138234738364291">
+        <object-type name="jarPink" sid="138234738364291">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="566104372366119">
@@ -165,16 +165,16 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="918326979459247" speed="5">
-                    <frame duration="1" hotspotX="0.504" hotspotY="0.440367">
+                    <frame duration="1" hotspotX="0.504132" hotspotY="0.440341" original-source="C:\Users\Josiah\Desktop\Internship\ConveyorBelt\Art Assets\Purplejar.png">
                         <collision-poly>
-                            <point x="0.00800002" y="0.00458716" />
-                            <point x="0.199" y="0" />
-                            <point x="0.186" y="0.933486" />
-                            <point x="0.859" y="0.923166" />
-                            <point x="0.88" y="0.0366975" />
-                            <point x="0.976" y="0.0458715" />
-                            <point x="0.908" y="0.981651" />
-                            <point x="0.152" y="0.986238" />
+                            <point x="0" y="0.214814" />
+                            <point x="0.0791653" y="0.03125" />
+                            <point x="0.078562" y="0.964736" />
+                            <point x="0.900322" y="0.962939" />
+                            <point x="0.900661" y="0.0423793" />
+                            <point x="0.988397" y="0.241894" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -209,7 +209,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="jar2" sid="578802069308773">
+        <object-type name="jarBlue" sid="578802069308773">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="273176144952122">
@@ -221,16 +221,16 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="411297990522547" speed="5">
-                    <frame duration="1" hotspotX="0.504" hotspotY="0.440367">
+                    <frame duration="1" hotspotX="0.504132" hotspotY="0.440341" original-source="C:\Users\Josiah\Desktop\Internship\ConveyorBelt\Art Assets\bluejar.png">
                         <collision-poly>
-                            <point x="0.012" y="0.0137611" />
-                            <point x="0.199" y="0.0183486" />
-                            <point x="0.198" y="0.924312" />
-                            <point x="0.848" y="0.899083" />
-                            <point x="0.876" y="0.0321095" />
-                            <point x="0.986" y="0.0435776" />
-                            <point x="0.928" y="1" />
-                            <point x="0.152" y="0.986238" />
+                            <point x="0.0702479" y="0.0454545" />
+                            <point x="0.0867767" y="0.944603" />
+                            <point x="0.884297" y="0.940342" />
+                            <point x="0.92562" y="0.0511364" />
+                            <point x="0.979339" y="0.227273" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.00413223" y="0.230114" />
                         </collision-poly>
                     </frame>
                 </animation>
