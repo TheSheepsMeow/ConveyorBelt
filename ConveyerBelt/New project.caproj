@@ -87,14 +87,14 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="417097100453345" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.509804" original-source="C:\Users\Josiah\Desktop\Internship\ConveyorBelt\Art Assets\bluecandy.png">
                         <collision-poly>
-                            <point x="0.328947" y="0.154412" />
-                            <point x="0.476974" y="0.00490196" />
-                            <point x="0.662281" y="0.142157" />
-                            <point x="0.725877" y="0.514706" />
-                            <point x="0.642544" y="0.877451" />
-                            <point x="0.5" y="0.980392" />
-                            <point x="0.307018" y="0.835785" />
-                            <point x="0.236842" y="0.453431" />
+                            <point x="0.304825" y="0.147059" />
+                            <point x="0.476426" y="0.00857843" />
+                            <point x="0.642544" y="0.117647" />
+                            <point x="0.724233" y="0.485294" />
+                            <point x="0.65022" y="0.818627" />
+                            <point x="0.485197" y="0.990196" />
+                            <point x="0.29386" y="0.794118" />
+                            <point x="0.245614" y="0.482843" />
                         </collision-poly>
                     </frame>
                 </animation>

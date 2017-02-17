@@ -670,7 +670,7 @@
                         <spray-cone>360</spray-cone>
                         <type>One-shot</type>
                         <initial-particle-properties></initial-particle-properties>
-                        <speed>200</speed>
+                        <speed>100</speed>
                         <size>4</size>
                         <opacity>100</opacity>
                         <grow-rate>0</grow-rate>
