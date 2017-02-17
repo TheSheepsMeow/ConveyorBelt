@@ -549,7 +549,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="cube" uid="0">
+                <instance type="CandyPurple" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -580,14 +580,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>97</x>
-                        <y>363</y>
+                        <x>80.172164917</x>
+                        <y>354.903930664</y>
                         <z>0</z>
-                        <width>32</width>
-                        <height>32</height>
+                        <width>67.726097107</width>
+                        <height>30.29851532</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.509803951</hotspotY>
                         <angle>0.18402642</angle>
                         <opacity>1</opacity>
                     </world>
@@ -626,11 +626,11 @@
                         <x>561</x>
                         <y>373</y>
                         <z>0</z>
-                        <width>31.937000275</width>
-                        <height>31.937000275</height>
+                        <width>67.725997925</width>
+                        <height>30.298999786</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.509803951</hotspotY>
                         <angle>-0.519089997</angle>
                         <opacity>1</opacity>
                     </world>
