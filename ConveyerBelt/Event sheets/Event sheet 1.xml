@@ -364,9 +364,10 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="469801706077965" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="470344095062133" type="weel">
+                <action id="4" name="Set animation" sid="470344095062133" type="conver">
                     <param id="0" name="Animation">&quot;left&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -383,9 +384,10 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="318751808976622" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="677226676524456" type="weel2">
+                <action id="4" name="Set animation" sid="677226676524456" type="conver2">
                     <param id="0" name="Animation">&quot;right&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -402,9 +404,10 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="138252884836346" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="919899939416421" type="weel">
+                <action id="4" name="Set animation" sid="919899939416421" type="conver">
                     <param id="0" name="Animation">&quot;right&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -421,9 +424,10 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="912466242135144" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="143929626575731" type="weel2">
+                <action id="4" name="Set animation" sid="143929626575731" type="conver2">
                     <param id="0" name="Animation">&quot;left&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -440,41 +444,8 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="458577763130683" type="System">
-                    <param id="0" name="Variable">chooseCube</param>
-                    <param id="1" name="Value">choose(1,2)</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="321704769891398">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="686873484485046" type="System">
-                    <param id="0" name="Variable">chooseCube</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="710069167007850" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="142469528879098" type="sponer">
-                    <param id="0" name="Object">CandyPurple</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="334438331643786">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="243107776593864" type="System">
-                    <param id="0" name="Variable">chooseCube</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">2</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="949600606340450" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="424215839469800" type="sponer">
-                    <param id="0" name="Object">CandyBlue</param>
+                <action id="0" name="Spawn another object" sid="459666170499555" type="Spawner">
+                    <param id="0" name="Object">Candies</param>
                     <param id="1" name="Layer">&quot;Game&quot;</param>
                     <param id="2" name="Image point">0</param>
                 </action>
@@ -827,6 +798,18 @@
             <actions>
                 <action id="-26" name="Restart layout" sid="285608330546865" type="System" />
                 <action id="-21" name="Reset global variables" sid="378388435273003" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="748407572041838">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="596757629629342" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="680262683153913" type="Spawner">
+                    <param id="0" name="Object">Candies</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
             </actions>
         </event-block>
     </events>

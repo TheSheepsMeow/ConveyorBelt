@@ -145,13 +145,71 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="405986241776610" speed="5">
-                    <frame duration="1" hotspotX="0.496" hotspotY="0.813559">
+                <animation framecount="4" loop="1" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="405986241776610" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Josiah\Desktop\Internship\ConveyorBelt\Art Assets\conveyorbelt.png">
                         <collision-poly>
-                            <point x="0" y="0.0338983" />
-                            <point x="1" y="0.0338983" />
+                            <point x="0.00357143" y="0" />
+                            <point x="1" y="0" />
                             <point x="1" y="1" />
-                            <point x="0" y="1" />
+                            <point x="0.00357143" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00357143" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00357143" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00357143" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00357143" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00357143" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00357143" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="746002966972117" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00357143" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00357143" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00357143" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00357143" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00357143" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00357143" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00357143" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.00357143" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -321,15 +379,17 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="209862313884316" speed="5">
-                    <frame duration="1" hotspotX="0.496" hotspotY="0.813559">
-                        <collision-poly>
-                            <point x="0" y="0.0338983" />
-                            <point x="1" y="0.0338983" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
+                <animation framecount="4" loop="1" name="Right" pingpong="0" repeatcount="1" repeatto="0" sid="209862313884316" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Josiah\Desktop\Internship\ConveyorBelt\Art Assets\conveyorbelt.png" />
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" />
+                </animation>
+                <animation framecount="4" loop="1" name="Left" pingpong="0" repeatcount="1" repeatto="0" sid="480780627255709" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -435,7 +495,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="sponer" sid="174730321583757">
+        <object-type name="Spawner" sid="174730321583757">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="662159056344303" speed="5">
@@ -563,7 +623,14 @@
             <plugin id="Audio" />
         </object-type>
     </object-folder>
-    <families />
+    <families>
+        <family name="Candies" plugin-id="Sprite" sid="707909887441797">
+            <members>
+                <member>CandyBlue</member>
+                <member>CandyPurple</member>
+            </members>
+        </family>
+    </families>
     <layout-folder>
         <layout>Layout 1.xml</layout>
     </layout-folder>
