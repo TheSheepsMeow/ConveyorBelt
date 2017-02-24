@@ -28,8 +28,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>640</width>
-        <height>480</height>
+        <width>480</width>
+        <height>320</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -271,20 +271,33 @@
         <object-type name="leftM" sid="157444423894521">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="794155948957029" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="UnPress" pingpong="0" repeatcount="1" repeatto="0" sid="968113561474819" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" />
+                </animation>
+                <animation framecount="1" loop="0" name="Press" pingpong="0" repeatcount="1" repeatto="0" sid="794155948957029" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\Josiah\Desktop\Internship\ConveyorBelt\Art Assets\PurpleArrow.png" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="leftM2" sid="180579565572326">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="870506383458548" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                <animation framecount="1" loop="0" name="UnPress" pingpong="0" repeatcount="1" repeatto="0" sid="870506383458548" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\Josiah\Desktop\Internship\ConveyorBelt\Art Assets\PurpleArrow.png">
                         <collision-poly>
                             <point x="1" y="1" />
                             <point x="0" y="1" />
-                            <point x="0" y="0" />
+                            <point x="0" y="0.0107527" />
+                            <point x="1" y="0.0107527" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Press" pingpong="0" repeatcount="1" repeatto="0" sid="814813462774821" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376">
+                        <collision-poly>
+                            <point x="1" y="0.989247" />
+                            <point x="0.0045045" y="0.989247" />
+                            <point x="0.0045045" y="0" />
                             <point x="1" y="0" />
                         </collision-poly>
                     </frame>
