@@ -11,7 +11,7 @@
             <sub-events>
                 <event-block sid="154074400364353">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="511500426266847" type="cube">
+                        <condition id="9" name="Is overlapping at offset" sid="511500426266847" type="CandyPurple">
                             <param id="0" name="Object">conver</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -23,7 +23,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="601230537692199" type="cube">
+                        <action id="-23" name="Move at angle" sid="601230537692199" type="CandyPurple">
                             <param id="0" name="Angle">180</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -31,7 +31,7 @@
                 </event-block>
                 <event-block sid="146563786430753">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="239069343353067" type="cube">
+                        <condition id="9" name="Is overlapping at offset" sid="239069343353067" type="CandyPurple">
                             <param id="0" name="Object">conver3</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -43,7 +43,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="129694246199490" type="cube">
+                        <action id="-23" name="Move at angle" sid="129694246199490" type="CandyPurple">
                             <param id="0" name="Angle">180</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -51,7 +51,7 @@
                 </event-block>
                 <event-block sid="389775787676031">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="105688328588235" type="cube">
+                        <condition id="9" name="Is overlapping at offset" sid="105688328588235" type="CandyPurple">
                             <param id="0" name="Object">conver4</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -63,7 +63,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="751605515289239" type="cube">
+                        <action id="-23" name="Move at angle" sid="751605515289239" type="CandyPurple">
                             <param id="0" name="Angle">180</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -71,7 +71,7 @@
                 </event-block>
                 <event-block sid="898522097027080">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="514751159775280" type="cube">
+                        <condition id="9" name="Is overlapping at offset" sid="514751159775280" type="CandyPurple">
                             <param id="0" name="Object">conver2</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -83,7 +83,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="126717753355787" type="cube">
+                        <action id="-23" name="Move at angle" sid="126717753355787" type="CandyPurple">
                             <param id="0" name="Angle">180</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -91,7 +91,7 @@
                 </event-block>
                 <event-block sid="523537255218357">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="555617580261781" type="cube">
+                        <condition id="9" name="Is overlapping at offset" sid="555617580261781" type="CandyPurple">
                             <param id="0" name="Object">conver</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -103,7 +103,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="468908792164861" type="cube">
+                        <action id="-23" name="Move at angle" sid="468908792164861" type="CandyPurple">
                             <param id="0" name="Angle">0</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -111,7 +111,7 @@
                 </event-block>
                 <event-block sid="857531487167888">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="219968566694825" type="cube">
+                        <condition id="9" name="Is overlapping at offset" sid="219968566694825" type="CandyPurple">
                             <param id="0" name="Object">conver3</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -123,7 +123,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="118968048286284" type="cube">
+                        <action id="-23" name="Move at angle" sid="118968048286284" type="CandyPurple">
                             <param id="0" name="Angle">0</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -131,7 +131,7 @@
                 </event-block>
                 <event-block sid="432980431516583">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="644002590959151" type="cube">
+                        <condition id="9" name="Is overlapping at offset" sid="644002590959151" type="CandyPurple">
                             <param id="0" name="Object">conver4</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -143,7 +143,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="846698426986472" type="cube">
+                        <action id="-23" name="Move at angle" sid="846698426986472" type="CandyPurple">
                             <param id="0" name="Angle">0</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -151,7 +151,7 @@
                 </event-block>
                 <event-block sid="855926709589921">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="121301727805539" type="cube">
+                        <condition id="9" name="Is overlapping at offset" sid="121301727805539" type="CandyPurple">
                             <param id="0" name="Object">conver2</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -163,7 +163,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="452974744159672" type="cube">
+                        <action id="-23" name="Move at angle" sid="452974744159672" type="CandyPurple">
                             <param id="0" name="Angle">0</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -171,7 +171,7 @@
                 </event-block>
                 <event-block sid="291690451722598">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="592133191196614" type="cube2">
+                        <condition id="9" name="Is overlapping at offset" sid="592133191196614" type="CandyBlue">
                             <param id="0" name="Object">conver</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -183,7 +183,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="305794348581276" type="cube2">
+                        <action id="-23" name="Move at angle" sid="305794348581276" type="CandyBlue">
                             <param id="0" name="Angle">180</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -191,7 +191,7 @@
                 </event-block>
                 <event-block sid="405883930547058">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="919713776742283" type="cube2">
+                        <condition id="9" name="Is overlapping at offset" sid="919713776742283" type="CandyBlue">
                             <param id="0" name="Object">conver3</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -203,7 +203,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="334607145890320" type="cube2">
+                        <action id="-23" name="Move at angle" sid="334607145890320" type="CandyBlue">
                             <param id="0" name="Angle">180</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -211,7 +211,7 @@
                 </event-block>
                 <event-block sid="591193922663355">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="561159527092396" type="cube2">
+                        <condition id="9" name="Is overlapping at offset" sid="561159527092396" type="CandyBlue">
                             <param id="0" name="Object">conver4</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -223,7 +223,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="490698261894933" type="cube2">
+                        <action id="-23" name="Move at angle" sid="490698261894933" type="CandyBlue">
                             <param id="0" name="Angle">180</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -231,7 +231,7 @@
                 </event-block>
                 <event-block sid="698587931115701">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="476771920875603" type="cube2">
+                        <condition id="9" name="Is overlapping at offset" sid="476771920875603" type="CandyBlue">
                             <param id="0" name="Object">conver</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -243,7 +243,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="130369615011838" type="cube2">
+                        <action id="-23" name="Move at angle" sid="130369615011838" type="CandyBlue">
                             <param id="0" name="Angle">0</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -251,7 +251,7 @@
                 </event-block>
                 <event-block sid="576795661693592">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="182502605412408" type="cube2">
+                        <condition id="9" name="Is overlapping at offset" sid="182502605412408" type="CandyBlue">
                             <param id="0" name="Object">conver3</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -263,7 +263,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="126208146995549" type="cube2">
+                        <action id="-23" name="Move at angle" sid="126208146995549" type="CandyBlue">
                             <param id="0" name="Angle">0</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -271,7 +271,7 @@
                 </event-block>
                 <event-block sid="111250515432570">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="950209320203379" type="cube2">
+                        <condition id="9" name="Is overlapping at offset" sid="950209320203379" type="CandyBlue">
                             <param id="0" name="Object">conver4</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -283,7 +283,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="657229919006724" type="cube2">
+                        <action id="-23" name="Move at angle" sid="657229919006724" type="CandyBlue">
                             <param id="0" name="Angle">0</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -291,7 +291,7 @@
                 </event-block>
                 <event-block sid="662195636257185">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="316611218460107" type="cube2">
+                        <condition id="9" name="Is overlapping at offset" sid="316611218460107" type="CandyBlue">
                             <param id="0" name="Object">conver2</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -303,7 +303,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="887520912067175" type="cube2">
+                        <action id="-23" name="Move at angle" sid="887520912067175" type="CandyBlue">
                             <param id="0" name="Angle">180</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -311,7 +311,7 @@
                 </event-block>
                 <event-block sid="959635504963066">
                     <conditions>
-                        <condition id="9" name="Is overlapping at offset" sid="615839727937888" type="cube2">
+                        <condition id="9" name="Is overlapping at offset" sid="615839727937888" type="CandyBlue">
                             <param id="0" name="Object">conver2</param>
                             <param id="1" name="Offset X">0</param>
                             <param id="2" name="Offset Y">1</param>
@@ -323,7 +323,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-23" name="Move at angle" sid="738082197051604" type="cube2">
+                        <action id="-23" name="Move at angle" sid="738082197051604" type="CandyBlue">
                             <param id="0" name="Angle">0</param>
                             <param id="1" name="Distance">1</param>
                         </action>
@@ -342,6 +342,10 @@
                     <param id="0" name="Variable">move1</param>
                     <param id="1" name="Value">0</param>
                 </action>
+                <action id="4" name="Set animation" sid="261219709964728" type="leftM">
+                    <param id="0" name="Animation">&quot;Press&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="262448756630248">
@@ -355,6 +359,36 @@
                     <param id="0" name="Variable">move1</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="4" name="Set animation" sid="811122276422228" type="leftM2">
+                    <param id="0" name="Animation">&quot;Press&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="171612657674467">
+            <conditions>
+                <condition id="4" inverted="1" name="Is touching object" sid="179440588198098" type="Touch">
+                    <param id="0" name="Object">leftM</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="655185559861420" type="leftM">
+                    <param id="0" name="Animation">&quot;UnPress&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="976269439055161">
+            <conditions>
+                <condition id="4" inverted="1" name="Is touching object" sid="403020465015970" type="Touch">
+                    <param id="0" name="Object">leftM2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="856658528453352" type="leftM2">
+                    <param id="0" name="Animation">&quot;UnPress&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="281335488329671">
@@ -364,10 +398,15 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="469801706077965" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="470344095062133" type="weel">
+                <action id="4" name="Set animation" sid="470344095062133" type="conver">
                     <param id="0" name="Animation">&quot;left&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="453008416831077" type="ConveyorArrows">
+                    <param id="0" name="Animation">&quot;Left&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
@@ -379,10 +418,15 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="318751808976622" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="677226676524456" type="weel2">
+                <action id="4" name="Set animation" sid="677226676524456" type="conver2">
                     <param id="0" name="Animation">&quot;right&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="246036715518363" type="ConveyorArrows2">
+                    <param id="0" name="Animation">&quot;Right&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
@@ -394,10 +438,15 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="138252884836346" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="919899939416421" type="weel">
+                <action id="4" name="Set animation" sid="919899939416421" type="conver">
                     <param id="0" name="Animation">&quot;right&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="794554116391995" type="ConveyorArrows">
+                    <param id="0" name="Animation">&quot;Right&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
@@ -409,10 +458,15 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="912466242135144" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="143929626575731" type="weel2">
+                <action id="4" name="Set animation" sid="143929626575731" type="conver2">
                     <param id="0" name="Animation">&quot;left&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="208866264468758" type="ConveyorArrows2">
+                    <param id="0" name="Animation">&quot;Left&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
@@ -424,206 +478,303 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="458577763130683" type="System">
-                    <param id="0" name="Variable">chooseCube</param>
-                    <param id="1" name="Value">choose(1,2)</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="321704769891398">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="686873484485046" type="System">
-                    <param id="0" name="Variable">chooseCube</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="710069167007850" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="142469528879098" type="sponer">
-                    <param id="0" name="Object">cube</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="334438331643786">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="243107776593864" type="System">
-                    <param id="0" name="Variable">chooseCube</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">2</param>
-                </condition>
-                <condition id="-4" name="Trigger once while true" sid="949600606340450" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="424215839469800" type="sponer">
-                    <param id="0" name="Object">cube2</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="298373924253729">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="308135610991110" type="cube">
-                    <param id="0" name="Object">counterPink</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Add to" sid="494409199266135" type="System">
-                    <param id="0" name="Variable">PointsPink</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="319227384607503">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="596180546537329" type="cube2">
-                    <param id="0" name="Object">counterPink</param>
-                </condition>
-                <condition id="-15" name="Pick nearest/furthest" sid="586156893021283" type="cube">
-                    <param id="0" name="Which">0</param>
-                    <param id="1" name="X">cube2.X</param>
-                    <param id="2" name="Y">cube2.Y</param>
-                </condition>
-                <condition id="1" name="Is overlapping another object" sid="480872261776828" type="counterPink">
-                    <param id="0" name="Object">cube</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="728966161292372" type="System">
-                    <param id="0" name="Seconds">0.35</param>
-                </action>
-                <action id="-11" name="Subtract from" sid="366822123543998" type="System">
-                    <param id="0" name="Variable">PointsPink</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action behavior="ScrollTo" id="0" name="Shake" sid="898933730531757" type="cameraObject">
-                    <param id="0" name="Magnitude">20</param>
-                    <param id="1" name="Duration">0.2</param>
-                    <param id="2" name="Mode">0</param>
-                </action>
-                <action id="0" name="Spawn another object" sid="279597293174359" type="cube">
-                    <param id="0" name="Object">ParticlesPink</param>
+                <action id="0" name="Spawn another object" sid="459666170499555" type="Spawner">
+                    <param id="0" name="Object">Candies</param>
                     <param id="1" name="Layer">&quot;Game&quot;</param>
                     <param id="2" name="Image point">0</param>
                 </action>
-                <action id="-9" name="Destroy" sid="357271425441076" type="cube" />
-                <action id="0" name="Spawn another object" sid="704612181889407" type="cube2">
-                    <param id="0" name="Object">ParticlesBlue</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-                <action id="-9" name="Destroy" sid="863041280393360" type="cube2" />
             </actions>
         </event-block>
-        <event-block sid="965323334145117">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="739007269572796" type="cube2">
-                    <param id="0" name="Object">counterPink</param>
-                </condition>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="756919859069306" type="counterPink">
-                    <param id="0" name="Object">cube</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="509595845366184" type="System">
-                    <param id="0" name="Seconds">0.35</param>
-                </action>
-                <action behavior="ScrollTo" id="0" name="Shake" sid="929264874644392" type="cameraObject">
-                    <param id="0" name="Magnitude">20</param>
-                    <param id="1" name="Duration">0.2</param>
-                    <param id="2" name="Mode">0</param>
-                </action>
-                <action id="0" name="Spawn another object" sid="646225941059016" type="cube2">
-                    <param id="0" name="Object">ParticlesBlue</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-                <action id="-9" name="Destroy" sid="664445387985580" type="cube2" />
-            </actions>
-        </event-block>
-        <event-block sid="428361438676192">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="914845351982703" type="cube2">
-                    <param id="0" name="Object">counterBlue</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Add to" sid="829658914921922" type="System">
-                    <param id="0" name="Variable">PointsBlue</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="557696638659670">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="183627152073495" type="cube">
-                    <param id="0" name="Object">counterBlue</param>
-                </condition>
-                <condition id="-15" name="Pick nearest/furthest" sid="568057489494625" type="cube2">
-                    <param id="0" name="Which">0</param>
-                    <param id="1" name="X">cube.X</param>
-                    <param id="2" name="Y">cube.Y</param>
-                </condition>
-                <condition id="1" name="Is overlapping another object" sid="158256958755412" type="counterBlue">
-                    <param id="0" name="Object">cube2</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="597432874907199" type="System">
-                    <param id="0" name="Seconds">0.35</param>
-                </action>
-                <action id="-11" name="Subtract from" sid="816840427510879" type="System">
-                    <param id="0" name="Variable">PointsBlue</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action behavior="ScrollTo" id="0" name="Shake" sid="221811810034028" type="cameraObject">
-                    <param id="0" name="Magnitude">20</param>
-                    <param id="1" name="Duration">0.2</param>
-                    <param id="2" name="Mode">0</param>
-                </action>
-                <action id="0" name="Spawn another object" sid="435652402858934" type="cube2">
-                    <param id="0" name="Object">ParticlesBlue</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-                <action id="-9" name="Destroy" sid="653893096227165" type="cube2" />
-                <action id="0" name="Spawn another object" sid="537668749721836" type="cube">
-                    <param id="0" name="Object">ParticlesPink</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-                <action id="-9" name="Destroy" sid="430792331077000" type="cube" />
-            </actions>
-        </event-block>
-        <event-block sid="762909792293227">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="890720154055154" type="cube">
-                    <param id="0" name="Object">counterBlue</param>
-                </condition>
-                <condition id="1" inverted="1" name="Is overlapping another object" sid="924702746641697" type="counterBlue">
-                    <param id="0" name="Object">cube2</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-16" name="Wait" sid="938005227036826" type="System">
-                    <param id="0" name="Seconds">0.35</param>
-                </action>
-                <action behavior="ScrollTo" id="0" name="Shake" sid="174654422864765" type="cameraObject">
-                    <param id="0" name="Magnitude">20</param>
-                    <param id="1" name="Duration">0.2</param>
-                    <param id="2" name="Mode">0</param>
-                </action>
-                <action id="0" name="Spawn another object" sid="384229957766871" type="cube">
-                    <param id="0" name="Object">ParticlesPink</param>
-                    <param id="1" name="Layer">&quot;Game&quot;</param>
-                    <param id="2" name="Image point">0</param>
-                </action>
-                <action id="-9" name="Destroy" sid="577613859182260" type="cube" />
-            </actions>
-        </event-block>
+        <event-group description="" sid="840962763143304" title="Candies">
+            <sub-events>
+                <event-block sid="298373924253729">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="308135610991110" type="CandyPurple">
+                            <param id="0" name="Object">counterPink</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="860619507870889" type="System">
+                            <param id="0" name="Seconds">0.35</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="494409199266135" type="System">
+                            <param id="0" name="Variable">PointsPink</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="979459061370120" type="CandyPurple">
+                            <param id="0" name="Object">collectPink</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="975114259873445" type="Audio">
+                            <param id="0" name="Audio file">collectCandy</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="319227384607503">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="596180546537329" type="CandyBlue">
+                            <param id="0" name="Object">counterPink</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="480872261776828" type="counterPink">
+                            <param id="0" name="Object">CandyPurple</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="885846921447080">
+                            <conditions>
+                                <condition id="-15" name="Pick nearest/furthest" sid="586156893021283" type="CandyPurple">
+                                    <param id="0" name="Which">0</param>
+                                    <param id="1" name="X">CandyBlue.X</param>
+                                    <param id="2" name="Y">CandyBlue.Y</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="728966161292372" type="System">
+                                    <param id="0" name="Seconds">0.35</param>
+                                </action>
+                                <action id="-11" name="Subtract from" sid="366822123543998" type="System">
+                                    <param id="0" name="Variable">PointsPink</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action behavior="ScrollTo" id="0" name="Shake" sid="898933730531757" type="cameraObject">
+                                    <param id="0" name="Magnitude">20</param>
+                                    <param id="1" name="Duration">0.2</param>
+                                    <param id="2" name="Mode">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="279597293174359" type="CandyPurple">
+                                    <param id="0" name="Object">ParticlesPink</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="357271425441076" type="CandyPurple" />
+                                <action id="0" name="Spawn another object" sid="704612181889407" type="CandyBlue">
+                                    <param id="0" name="Object">ParticlesBlue</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="863041280393360" type="CandyBlue" />
+                                <action id="0" name="Play" sid="491472692422868" type="Audio">
+                                    <param id="0" name="Audio file">missCandy</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="556814135750798" type="jarPink">
+                                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="999692643357971" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="652529416821622" type="jarPink">
+                                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle -40, 0.1)</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="675971173315569" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="456127674639960" type="jarPink">
+                                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="965323334145117">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="739007269572796" type="CandyBlue">
+                            <param id="0" name="Object">counterPink</param>
+                        </condition>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="756919859069306" type="counterPink">
+                            <param id="0" name="Object">CandyPurple</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="509595845366184" type="System">
+                            <param id="0" name="Seconds">0.35</param>
+                        </action>
+                        <action behavior="ScrollTo" id="0" name="Shake" sid="929264874644392" type="cameraObject">
+                            <param id="0" name="Magnitude">20</param>
+                            <param id="1" name="Duration">0.2</param>
+                            <param id="2" name="Mode">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="646225941059016" type="CandyBlue">
+                            <param id="0" name="Object">ParticlesBlue</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="664000031511476" type="Audio">
+                            <param id="0" name="Audio file">missCandy</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="664445387985580" type="CandyBlue" />
+                        <action id="-8" name="Set angle" sid="306254967009711" type="jarPink">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="709975253869943" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="793267895594311" type="jarPink">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle -40, 0.1)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="253777179852254" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="184564082393065" type="jarPink">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="428361438676192">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="914845351982703" type="CandyBlue">
+                            <param id="0" name="Object">counterBlue</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="623473819626714" type="System">
+                            <param id="0" name="Seconds">0.35</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="829658914921922" type="System">
+                            <param id="0" name="Variable">PointsBlue</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="413130856383660" type="CandyBlue">
+                            <param id="0" name="Object">collectBlue</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="863363410591111" type="Audio">
+                            <param id="0" name="Audio file">collectCandy</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="557696638659670">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="183627152073495" type="CandyPurple">
+                            <param id="0" name="Object">counterBlue</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="158256958755412" type="counterBlue">
+                            <param id="0" name="Object">CandyBlue</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="236149307528773">
+                            <conditions>
+                                <condition id="-15" name="Pick nearest/furthest" sid="568057489494625" type="CandyBlue">
+                                    <param id="0" name="Which">0</param>
+                                    <param id="1" name="X">CandyPurple.X</param>
+                                    <param id="2" name="Y">CandyPurple.Y</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="597432874907199" type="System">
+                                    <param id="0" name="Seconds">0.35</param>
+                                </action>
+                                <action id="-11" name="Subtract from" sid="816840427510879" type="System">
+                                    <param id="0" name="Variable">PointsBlue</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action behavior="ScrollTo" id="0" name="Shake" sid="221811810034028" type="cameraObject">
+                                    <param id="0" name="Magnitude">20</param>
+                                    <param id="1" name="Duration">0.2</param>
+                                    <param id="2" name="Mode">0</param>
+                                </action>
+                                <action id="0" name="Spawn another object" sid="435652402858934" type="CandyBlue">
+                                    <param id="0" name="Object">ParticlesBlue</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="653893096227165" type="CandyBlue" />
+                                <action id="0" name="Spawn another object" sid="537668749721836" type="CandyPurple">
+                                    <param id="0" name="Object">ParticlesPink</param>
+                                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="430792331077000" type="CandyPurple" />
+                                <action id="0" name="Play" sid="206563439259957" type="Audio">
+                                    <param id="0" name="Audio file">missCandy</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="646731992509338" type="jarBlue">
+                                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="759202720641095" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="621474091720126" type="jarBlue">
+                                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle -40, 0.1)</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="101491566760543" type="System">
+                                    <param id="0" name="Seconds">0.2</param>
+                                </action>
+                                <action id="-8" name="Set angle" sid="271362968353966" type="jarBlue">
+                                    <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="762909792293227">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="890720154055154" type="CandyPurple">
+                            <param id="0" name="Object">counterBlue</param>
+                        </condition>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="924702746641697" type="counterBlue">
+                            <param id="0" name="Object">CandyBlue</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="938005227036826" type="System">
+                            <param id="0" name="Seconds">0.35</param>
+                        </action>
+                        <action behavior="ScrollTo" id="0" name="Shake" sid="174654422864765" type="cameraObject">
+                            <param id="0" name="Magnitude">20</param>
+                            <param id="1" name="Duration">0.2</param>
+                            <param id="2" name="Mode">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="384229957766871" type="CandyPurple">
+                            <param id="0" name="Object">ParticlesPink</param>
+                            <param id="1" name="Layer">&quot;Game&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="177150549207664" type="Audio">
+                            <param id="0" name="Audio file">missCandy</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="577613859182260" type="CandyPurple" />
+                        <action id="-8" name="Set angle" sid="426862903156135" type="jarBlue">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="781509754260514" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="700104094146539" type="jarBlue">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle -40, 0.1)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="561727343374900" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="-8" name="Set angle" sid="358194292341403" type="jarBlue">
+                            <param id="0" name="Angle">lerp(Self.Angle, Self.Angle +20, 0.1)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-block sid="532858945707534">
             <conditions>
                 <condition id="-1" name="Every tick" sid="134994449756337" type="System" />
@@ -634,6 +785,64 @@
                 </action>
                 <action id="0" name="Set text" sid="124084332376950" type="PointsPink">
                     <param id="0" name="Text">PointsPink</param>
+                </action>
+                <action id="-25" name="Move to bottom" sid="568792459409530" type="jarBlue" />
+                <action id="-25" name="Move to bottom" sid="918346535230709" type="jarPink" />
+                <action id="0" name="Set text" sid="914039550906004" type="goal">
+                    <param id="0" name="Text">PointsBlue + PointsPink &amp; &quot;/25 Candies&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="587354769361981">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="168391629679271" type="System">
+                    <param id="0" name="First value">PointsBlue + PointsPink</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Second value">25</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="504442147584130" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="569460850950949" type="Win">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="998345801987320" type="Win">
+                    <param id="0" name="&apos;On&apos; time">0.5</param>
+                    <param id="1" name="&apos;Off&apos; time">0.2</param>
+                    <param id="2" name="Duration">Infinity</param>
+                </action>
+                <action id="-15" name="Set visible" sid="583995282099362" type="RestartButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Play" sid="635053499672335" type="Audio">
+                    <param id="0" name="Audio file">Powerup 38</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="467255074859987">
+            <conditions>
+                <condition id="17" name="On tap object" sid="685124367955884" type="Touch">
+                    <param id="0" name="Object">RestartButton</param>
+                </condition>
+                <condition id="-9" name="Is visible" sid="562222918606928" type="RestartButton" />
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="285608330546865" type="System" />
+                <action id="-21" name="Reset global variables" sid="378388435273003" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="748407572041838">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="596757629629342" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="680262683153913" type="Spawner">
+                    <param id="0" name="Object">Candies</param>
+                    <param id="1" name="Layer">&quot;Game&quot;</param>
+                    <param id="2" name="Image point">0</param>
                 </action>
             </actions>
         </event-block>
